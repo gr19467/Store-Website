@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 251, 0);
+}
+
+.bar>img{
+    display: inline-block;
+    border-style: inset;
+    padding-left: 50%;
+    padding-right:50%;
+}
+.navi {
+    border: 5px dashed rgb(0, 153, 255);
+
+    list-style: none;
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+    padding-left: 0%;
+}
+
+.navi li{
+    display: inline-block;
+    border-style: outset;
+    border-radius: 3px;
+    border-color:rgb(0, 153, 255);
+}
+
+.navi>li>a:hover {
+    color: rgb(255, 251, 0);
+}
