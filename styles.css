@@ -1,13 +1,31 @@
 body{
     background-color: rgb(255, 251, 0);
+    
 }
 
-.bar>img{
-    display: inline-block;
-    border-style: inset;
-    padding-left: 50%;
-    padding-right:50%;
+div{
+    background-image: url(Images/duck1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30vmax;
+    font-size: 400%;
+    font-family: 'Script MT';
+    text-align: right;
+    padding-right: 40%;
+    
 }
+
+div>h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: rgb(224, 221, 0);
+}
+
+img{
+    display: inline-block;
+    width: 100%;
+    max-height: 30vmax;
+}
+
 .navi {
     border: 5px dashed rgb(0, 153, 255);
 
