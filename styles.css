@@ -3,7 +3,9 @@ body{
     
 }
 
-div{
+div#imgContainer{
+    border-radius: 5px;
+    border-style: dashed;
     background-image: url(Images/duck1.png);
     background-repeat: no-repeat;
     background-size: 100% 30vmax;
@@ -11,7 +13,9 @@ div{
     font-family: 'Script MT';
     text-align: right;
     padding-right: 40%;
-    
+}
+div>img{
+    border: aqua dashed inset;
 }
 
 div>h1{
