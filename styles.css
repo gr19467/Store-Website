@@ -3,12 +3,20 @@ body{
     
 }
 
-div#imgContainer{
-    border-radius: 5px;
-    border-style: dashed;
+div{
+    display: inline-block;
+    width: 100vw;
+    height: 35.6vw;
+
+    border: 5px dashed;
+    border-color: rgb(0,153,255);
+    
     background-image: url(Images/duck1.png);
+    background-image: contain;
     background-repeat: no-repeat;
-    background-size: 100% 30vmax;
+    background-size: 100vw;
+    width: 100vw;
+
     font-size: 400%;
     font-family: 'Script MT';
     text-align: right;
