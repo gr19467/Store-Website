@@ -1,11 +1,25 @@
 body{
     background-color: rgb(255, 251, 0);
     text-align: center;
+    background-blend-mode: hue;
+    font-family: "Script MT";
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 153, 255);
+}
+
+h2{
+    color: rgb(0, 153, 255);
+}
+
+h3{
+    color: rgb(0, 153, 255);
 }
 
 .Header{
     font-size: 400%;
-    font-family: 'Script MT';
     text-align: right;
     padding-right: 40%;
 
@@ -16,6 +30,7 @@ body{
 
 .Shop{
     list-style: none;
+    color: rgb(0, 153, 255);
 }
 
 .MainImg{
@@ -25,7 +40,7 @@ body{
 }
 
 .navi {
-    border: 5px dashed rgb(0, 153, 255);
+    border: 5px double rgb(0, 153, 255);
 
     list-style: none;
     width: 50%;
